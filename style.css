@@ -1,0 +1,66 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 10px;
+}
+body
+{
+    font-size: 1.2rem;
+}
+
+.hesapMakinesi
+{
+    border: 5px solid #c650c0;
+    border-inline-color: darkmagenta;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hesapMakinesi_input
+{
+    width: 100%;
+    font-size: 4rem;
+    height: 70px;
+    border: none;
+    background-color: #f5d3f3;
+    color: black;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+button 
+{
+    height: 50px;
+    width: 95px;
+    background-color: azure;
+    border: 1px groove #c650c0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+button:hover
+{
+    background-color: #c4bffe;
+}
+.clear 
+{
+    background-color: #f5d3f3;
+}
+.esittir
+{
+    background-color: darkslateblue;
+    grid-area: 2/4/6/5;
+    height: 100%;
+}
+.hesapMakinesi_tuslar
+{
+    display: grid;
+    grid-template-columns: repeat(4,25%);    
+}
